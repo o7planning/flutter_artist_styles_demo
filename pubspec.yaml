@@ -1,0 +1,29 @@
+name: flutter_artist_styles_demo
+description: "FlutterArtist Styles Demo"
+publish_to: 'none'
+version: 0.9.3
+
+environment:
+  sdk: ^3.11.5
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_artist_core: ^0.9.1
+  flutter_artist_styles: ^1.0.0
+  flutter_artist_styles_inspector: ^1.0.0
+  flutter_left_right_container: ^0.9.1
+
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^6.0.0
+
+
+flutter:
+  uses-material-design: true
