@@ -10,12 +10,17 @@ void main() {
 class DemoThemeController extends ChangeNotifier {
   Brightness _brightness = Brightness.light;
 
-  // Starting with a fallback default scheme from Flutter Material
   ColorScheme _currentScheme = const ColorScheme.light(
-    primary: Colors.blue,
-    secondary: Colors.amber,
-    surface: Colors.white,
-    error: Colors.red,
+    primary: Color(0xFF355CA8),
+    secondary: Color(0xFF06B6D4),
+    error: Color(0xFFDC2626),
+    background: Color(0xFFF1F5F9),
+    surface: Color(0xFFF8FAFC),
+    surfaceContainerLowest: Color(0xFFFFFFFF),
+    surfaceContainerLow: Color(0xFFF8FAFC),
+    surfaceContainer: Color(0xFFE2E8F0),
+    onSurface: Color(0xFF0F172A),
+    onSurfaceVariant: Color(0xFF475569),
   );
 
   Brightness get brightness => _brightness;
@@ -29,6 +34,7 @@ class DemoThemeController extends ChangeNotifier {
     notifyListeners();
   }
 }
+
 
 /// The global shared controller instance for simplicity in this small demo app
 final demoThemeController = DemoThemeController();
