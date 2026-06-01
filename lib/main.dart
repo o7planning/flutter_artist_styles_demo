@@ -10,8 +10,9 @@ void main() {
 class DemoThemeController extends ChangeNotifier {
   Brightness _brightness = Brightness.light;
   ColorScheme _currentScheme = const ColorScheme.light(
-    primary: Color(0xFF355CA8),
-    secondary: Color(0xFF06B6D4),
+    primary: Color(0xFF1D1AB7),
+    secondary: Color(0xFF355CA8),
+    onSecondary: Colors.white,
     error: Color(0xFFDC2626),
     background: Color(0xFFF8FAFC),
     surface: Color(0xFFF1F5F9),
@@ -31,7 +32,6 @@ class DemoThemeController extends ChangeNotifier {
     notifyListeners();
   }
 }
-
 
 /// The global shared controller instance for simplicity in this small demo app
 final demoThemeController = DemoThemeController();

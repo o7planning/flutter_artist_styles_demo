@@ -48,7 +48,10 @@ class SurfacePlayground extends StatelessWidget {
               ),
               Text(
                 'Metadata text formatted inside the card ecosystem.',
-                style: TextStyle(color: faColors.ink.muted, fontSize: 12),
+                style: TextStyle(
+                  color: faColors.ink.tertiaryQuiet,
+                  fontSize: 12,
+                ),
               ),
             ],
           ),
