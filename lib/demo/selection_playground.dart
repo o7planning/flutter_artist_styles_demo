@@ -20,32 +20,32 @@ class SelectionPlayground extends StatelessWidget {
 
         _buildSelectionRow(
           'Idle Row Style',
-          faColors.selection.rowNormal,
-          faColors.selection.inkNormal,
+          faColors.surface.row,
+          faColors.ink.row,
         ),
         const SizedBox(height: 10),
         _buildSelectionRow(
           'Hovered State Mock',
-          faColors.selection.rowHover,
-          faColors.selection.inkNormal,
+          faColors.surface.row.hover,
+          faColors.ink.row.hover,
         ),
         const SizedBox(height: 10),
         _buildSelectionRow(
           'Pressed / Active State Mock',
-          faColors.selection.rowPressed,
-          faColors.selection.inkNormal,
+          faColors.surface.row.pressed,
+          faColors.ink.row.pressed,
         ),
         const SizedBox(height: 10),
         _buildSelectionRow(
           'Selected Active Row Instance',
-          faColors.selection.rowSelected,
-          faColors.selection.inkSelected,
+          faColors.surface.row.selected,
+          faColors.ink.row.selected,
         ),
         const SizedBox(height: 10),
         _buildSelectionRow(
           'Current Processing Focus Row',
-          faColors.selection.rowCurrent,
-          faColors.selection.inkCurrent,
+          faColors.surface.row.current,
+          faColors.ink.row.current,
         ),
       ],
     );

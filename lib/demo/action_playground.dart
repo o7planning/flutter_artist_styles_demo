@@ -66,7 +66,7 @@ class ActionPlayground extends StatelessWidget {
           children: [
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                backgroundColor: faColors.action.fill.reversePrimary,
+                backgroundColor: faColors.action.fill.primaryTonal,
               ),
               onPressed: () {},
               child: Text(
@@ -76,7 +76,7 @@ class ActionPlayground extends StatelessWidget {
             ),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                backgroundColor: faColors.action.fill.reverseSecondary,
+                backgroundColor: faColors.action.fill.secondaryTonal,
               ),
               onPressed: () {},
               child: Text(

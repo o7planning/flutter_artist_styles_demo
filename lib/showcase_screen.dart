@@ -90,16 +90,16 @@ class _ShowcaseScreenState extends State<ShowcaseScreen> {
               ),
               decoration: BoxDecoration(
                 color: isSelected
-                    ? faColors.selection.rowSelected
-                    : faColors.selection.rowNormal,
+                    ? faColors.surface.row.selected
+                    : faColors.surface.row,
                 borderRadius: BorderRadius.circular(8.0),
               ),
               child: Text(
                 _sections[index],
                 style: TextStyle(
                   color: isSelected
-                      ? faColors.selection.inkSelected
-                      : faColors.selection.inkNormal,
+                      ? faColors.ink.row.selected
+                      : faColors.ink.row,
                   fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
                 ),
               ),
