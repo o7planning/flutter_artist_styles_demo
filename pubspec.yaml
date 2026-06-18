@@ -10,10 +10,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_artist_core: ^0.9.1
+  flutter_artist_core: ^1.0.0
   flutter_artist_styles: ^2.1.0
-  flutter_artist_styles_inspector: ^2.0.3
-  flutter_left_right_container: ^0.9.3
+  flutter_artist_styles_inspector: ^2.0.5
+  flutter_left_right_container: ^0.9.4
 
 
   cupertino_icons: ^1.0.8
